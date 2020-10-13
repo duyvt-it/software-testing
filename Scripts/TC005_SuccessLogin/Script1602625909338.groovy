@@ -28,8 +28,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/TC005_SuccessLogin/Page
 
 WebUI.click(findTestObject('Object Repository/TC005_SuccessLogin/Page_CURA Healthcare Service/button_Login'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/TC005_SuccessLogin/Page_CURA Healthcare Service/hr_Make Appointment_small'), 
-    0)
+WebUI.verifyElementText(findTestObject('TC005_SuccessLogin/Page_CURA Healthcare Service/label_Apply for hospital readmission'), 
+    'Apply for hospital readmission')
 
 WebUI.closeBrowser()
 
