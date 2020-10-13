@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Login" time="36.239" tests="5" failures="0" errors="0">
+   <testsuite name="TS_Login" tests="5" failures="0" errors="0" time="36.239" timestamp="2020-10-14 06:06:26" hostname="duyvt - S510UQ" id="Test Suites/TS_Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/duyvt/Katalon Studio/software-testing/Reports/20201014_060620/TS_Login/20201014_060620"/>
+         <property name="logFiles" value="/home/duyvt/Katalon Studio/software-testing/Reports/20201014_060620/TS_Login/20201014_060620/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="duyvt - S510UQ"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="7.7.1.205"/>
+         <property name="browser" value="Chrome 85.0.4183.121"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="ac095ca73c72ae696f97ee4aa8437f39"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/TC001_LoginFieldBlank" time="5.843" classname="Test Cases/TC001_LoginFieldBlank" status="PASSED">
+         <system-out><![CDATA[2020-10-14 06:06:27 - [TEST_CASE][PASSED] - Test Cases/TC001_LoginFieldBlank: Test Cases/TC001_LoginFieldBlank
+
+2020-10-14 06:06:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-14 06:06:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-14 06:06:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-14 06:06:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-14 06:06:28 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/profile.php#login"): Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2020-10-14 06:06:31 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2020-10-14 06:06:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC001_LoginFieldBlank/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/TC001_LoginFieldBlank/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2020-10-14 06:06:32 - [MESSAGE][PASSED] - Object: 'Object Repository/TC001_LoginFieldBlank/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2020-10-14 06:06:32 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("TC001_LoginFieldBlank/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5"), 0): Object 'Object Repository/TC001_LoginFieldBlank/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is present
+
+2020-10-14 06:06:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-14 06:06:32 - [MESSAGE][PASSED] - Object 'Object Repository/TC001_LoginFieldBlank/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is present
+
+2020-10-14 06:06:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TC001_LoginFieldBlank/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5"), "Login failed! Please ensure the username and password are valid."): Actual text and expected text of test object 'Object Repository/TC001_LoginFieldBlank/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' are matched.
+
+2020-10-14 06:06:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC001_LoginFieldBlank/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' are matched.
+
+2020-10-14 06:06:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-14 06:06:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC002_UsernameBlank" time="6.417" classname="Test Cases/TC002_UsernameBlank" status="PASSED">
+         <system-out><![CDATA[2020-10-14 06:06:32 - [TEST_CASE][PASSED] - Test Cases/TC002_UsernameBlank: Test Cases/TC002_UsernameBlank
+
+2020-10-14 06:06:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-14 06:06:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-14 06:06:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-14 06:06:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-14 06:06:33 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/profile.php#login"): Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2020-10-14 06:06:36 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2020-10-14 06:06:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC002_UsernameBlank/Page_CURA Healthcare Service/input_Password_password"), password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/TC002_UsernameBlank/Page_CURA Healthcare Service/input_Password_password'
+
+2020-10-14 06:06:37 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/TC002_UsernameBlank/Page_CURA Healthcare Service/input_Password_password'
+
+2020-10-14 06:06:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC002_UsernameBlank/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/TC002_UsernameBlank/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2020-10-14 06:06:38 - [MESSAGE][PASSED] - Object: 'Object Repository/TC002_UsernameBlank/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2020-10-14 06:06:38 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("TC002_UsernameBlank/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5"), 0): Object 'Object Repository/TC002_UsernameBlank/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is present
+
+2020-10-14 06:06:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-14 06:06:39 - [MESSAGE][PASSED] - Object 'Object Repository/TC002_UsernameBlank/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is present
+
+2020-10-14 06:06:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TC002_UsernameBlank/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5"), "Login failed! Please ensure the username and password are valid."): Actual text and expected text of test object 'Object Repository/TC002_UsernameBlank/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' are matched.
+
+2020-10-14 06:06:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC002_UsernameBlank/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' are matched.
+
+2020-10-14 06:06:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-14 06:06:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC003_PasswordBlank" time="5.596" classname="Test Cases/TC003_PasswordBlank" status="PASSED">
+         <system-out><![CDATA[2020-10-14 06:06:39 - [TEST_CASE][PASSED] - Test Cases/TC003_PasswordBlank: Test Cases/TC003_PasswordBlank
+
+2020-10-14 06:06:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-14 06:06:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-14 06:06:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-14 06:06:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-14 06:06:39 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/profile.php#login"): Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2020-10-14 06:06:42 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2020-10-14 06:06:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC003_PasswordBlank/Page_CURA Healthcare Service/input_Username_username"), username): Text 'John Doe' is set on object 'Object Repository/TC003_PasswordBlank/Page_CURA Healthcare Service/input_Username_username'
+
+2020-10-14 06:06:43 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/TC003_PasswordBlank/Page_CURA Healthcare Service/input_Username_username'
+
+2020-10-14 06:06:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC003_PasswordBlank/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/TC003_PasswordBlank/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2020-10-14 06:06:44 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003_PasswordBlank/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2020-10-14 06:06:44 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("TC003_PasswordBlank/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5"), 0): Object 'Object Repository/TC003_PasswordBlank/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is present
+
+2020-10-14 06:06:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-14 06:06:44 - [MESSAGE][PASSED] - Object 'Object Repository/TC003_PasswordBlank/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is present
+
+2020-10-14 06:06:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TC003_PasswordBlank/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5"), "Login failed! Please ensure the username and password are valid."): Actual text and expected text of test object 'Object Repository/TC003_PasswordBlank/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' are matched.
+
+2020-10-14 06:06:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC003_PasswordBlank/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' are matched.
+
+2020-10-14 06:06:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-14 06:06:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC004_WrongPassword" time="6.155" classname="Test Cases/TC004_WrongPassword" status="PASSED">
+         <system-out><![CDATA[2020-10-14 06:06:44 - [TEST_CASE][PASSED] - Test Cases/TC004_WrongPassword: Test Cases/TC004_WrongPassword
+
+2020-10-14 06:06:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-14 06:06:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-14 06:06:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-14 06:06:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-14 06:06:45 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/profile.php#login"): Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2020-10-14 06:06:48 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2020-10-14 06:06:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC004_WrongPassword/Page_CURA Healthcare Service/input_Username_username"), username): Text 'John Doe' is set on object 'Object Repository/TC004_WrongPassword/Page_CURA Healthcare Service/input_Username_username'
+
+2020-10-14 06:06:48 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/TC004_WrongPassword/Page_CURA Healthcare Service/input_Username_username'
+
+2020-10-14 06:06:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC004_WrongPassword/Page_CURA Healthcare Service/input_Password_password"), wrongpass): Text '1' is set on object 'Object Repository/TC004_WrongPassword/Page_CURA Healthcare Service/input_Password_password'
+
+2020-10-14 06:06:49 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/TC004_WrongPassword/Page_CURA Healthcare Service/input_Password_password'
+
+2020-10-14 06:06:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC004_WrongPassword/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/TC004_WrongPassword/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2020-10-14 06:06:50 - [MESSAGE][PASSED] - Object: 'Object Repository/TC004_WrongPassword/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2020-10-14 06:06:50 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("TC004_WrongPassword/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5"), 0): Object 'Object Repository/TC004_WrongPassword/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is present
+
+2020-10-14 06:06:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-14 06:06:50 - [MESSAGE][PASSED] - Object 'Object Repository/TC004_WrongPassword/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is present
+
+2020-10-14 06:06:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TC004_WrongPassword/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5"), "Login failed! Please ensure the username and password are valid."): Actual text and expected text of test object 'Object Repository/TC004_WrongPassword/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' are matched.
+
+2020-10-14 06:06:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC004_WrongPassword/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' are matched.
+
+2020-10-14 06:06:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-14 06:06:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC005_SuccessLogin" time="6.088" classname="Test Cases/TC005_SuccessLogin" status="PASSED">
+         <system-out><![CDATA[2020-10-14 06:06:51 - [TEST_CASE][PASSED] - Test Cases/TC005_SuccessLogin: Test Cases/TC005_SuccessLogin
+
+2020-10-14 06:06:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-14 06:06:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-14 06:06:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-14 06:06:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-14 06:06:51 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/profile.php#login"): Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2020-10-14 06:06:54 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2020-10-14 06:06:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC005_SuccessLogin/Page_CURA Healthcare Service/input_Username_username"), username): Text 'John Doe' is set on object 'Object Repository/TC005_SuccessLogin/Page_CURA Healthcare Service/input_Username_username'
+
+2020-10-14 06:06:54 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/TC005_SuccessLogin/Page_CURA Healthcare Service/input_Username_username'
+
+2020-10-14 06:06:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC005_SuccessLogin/Page_CURA Healthcare Service/input_Password_password"), password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/TC005_SuccessLogin/Page_CURA Healthcare Service/input_Password_password'
+
+2020-10-14 06:06:55 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/TC005_SuccessLogin/Page_CURA Healthcare Service/input_Password_password'
+
+2020-10-14 06:06:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC005_SuccessLogin/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/TC005_SuccessLogin/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2020-10-14 06:06:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TC005_SuccessLogin/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2020-10-14 06:06:56 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("TC005_SuccessLogin/Page_CURA Healthcare Service/label_Apply for hospital readmission"), 0): Object 'Object Repository/TC005_SuccessLogin/Page_CURA Healthcare Service/label_Apply for hospital readmission' is present
+
+2020-10-14 06:06:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-14 06:06:56 - [MESSAGE][PASSED] - Object 'Object Repository/TC005_SuccessLogin/Page_CURA Healthcare Service/label_Apply for hospital readmission' is present
+
+2020-10-14 06:06:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("TC005_SuccessLogin/Page_CURA Healthcare Service/label_Apply for hospital readmission"), "Apply for hospital readmission"): Actual text and expected text of test object 'Object Repository/TC005_SuccessLogin/Page_CURA Healthcare Service/label_Apply for hospital readmission' are matched.
+
+2020-10-14 06:06:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC005_SuccessLogin/Page_CURA Healthcare Service/label_Apply for hospital readmission' are matched.
+
+2020-10-14 06:06:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-14 06:06:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-10-14 06:06:26 - [TEST_SUITE][PASSED] - TS_Login: Test Cases/TC005_SuccessLogin]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -21,9 +21,12 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/profile.php#login')
 
 WebUI.setText(findTestObject('Object Repository/TC002_UsernameBlank/Page_CURA Healthcare Service/input_Password_password'), 
-    GlobalVariable.username)
+    GlobalVariable.password)
 
 WebUI.click(findTestObject('Object Repository/TC002_UsernameBlank/Page_CURA Healthcare Service/button_Login'))
+
+WebUI.waitForElementPresent(findTestObject('TC002_UsernameBlank/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5'), 
+    0)
 
 WebUI.verifyElementText(findTestObject('Object Repository/TC002_UsernameBlank/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5'), 
     'Login failed! Please ensure the username and password are valid.')

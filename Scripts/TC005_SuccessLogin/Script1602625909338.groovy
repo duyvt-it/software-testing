@@ -28,6 +28,9 @@ WebUI.setText(findTestObject('Object Repository/TC005_SuccessLogin/Page_CURA Hea
 
 WebUI.click(findTestObject('Object Repository/TC005_SuccessLogin/Page_CURA Healthcare Service/button_Login'))
 
+WebUI.waitForElementPresent(findTestObject('TC005_SuccessLogin/Page_CURA Healthcare Service/label_Apply for hospital readmission'), 
+    0)
+
 WebUI.verifyElementText(findTestObject('TC005_SuccessLogin/Page_CURA Healthcare Service/label_Apply for hospital readmission'), 
     'Apply for hospital readmission')
 

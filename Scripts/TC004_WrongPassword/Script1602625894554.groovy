@@ -24,9 +24,12 @@ WebUI.setText(findTestObject('Object Repository/TC004_WrongPassword/Page_CURA He
     GlobalVariable.username)
 
 WebUI.setText(findTestObject('Object Repository/TC004_WrongPassword/Page_CURA Healthcare Service/input_Password_password'), 
-    GlobalVariable.password)
+    GlobalVariable.wrongpass)
 
 WebUI.click(findTestObject('Object Repository/TC004_WrongPassword/Page_CURA Healthcare Service/button_Login'))
+
+WebUI.waitForElementPresent(findTestObject('TC004_WrongPassword/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5'), 
+    0)
 
 WebUI.verifyElementText(findTestObject('Object Repository/TC004_WrongPassword/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5'), 
     'Login failed! Please ensure the username and password are valid.')
