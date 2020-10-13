@@ -20,8 +20,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/profile.php#login')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TC002_UsernameBlank/Page_CURA Healthcare Service/input_Password_password'), 
-    'g3/DOGG74jAKMFpjOjvaeen/MHdYwBHC')
+WebUI.setText(findTestObject('Object Repository/TC002_UsernameBlank/Page_CURA Healthcare Service/input_Password_password'), 
+    GlobalVariable.username)
 
 WebUI.click(findTestObject('Object Repository/TC002_UsernameBlank/Page_CURA Healthcare Service/button_Login'))
 
